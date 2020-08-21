@@ -12,26 +12,26 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :title %>
+    <%= form.label 'Название' %>
     <%= form.text_field :title %>
   </div>
 
   <div class="field">
-    <%= form.label :description %>
+    <%= form.label 'Описание' %>
     <%= form.text_area :description, rows: 6 %>
   </div>
 
   <div class="field">
-    <%= form.label :image_url %>
+    <%= form.label 'Изображение' %>
     <%= form.text_field :image_url %>
   </div>
 
   <div class="field">
-    <%= form.label :price %>
+    <%= form.label 'Цена' %>
     <%= form.text_field :price %>
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+     <%= submit_tag "Подтвердить" %>
   </div>
 <% end %>
